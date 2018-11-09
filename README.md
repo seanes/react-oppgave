@@ -1,44 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Country-UI er en enkel React-applikasjon som lister nyttig informasjon om alle land i verden.
 
-## Available Scripts
+## Oppgave
 
-In the project directory, you can run:
 
-### `npm start`
+1. Country-UI skal hente ut alle land gjennom datatjenestene til `restcountries.eu`, mer spesifikt [denne](https://restcountries.eu/rest/v2/all). Kallet skal gjøres automatisk.
+2. Svaret fra API-kallet skal listes i en tabellvisning, der hver rad inneholder informasjon om landets navn, verdensdel og hovedstad. Flagget til landet skal også vises.
+3. Siden som viser tabellen, skal ha en overskrift som sier hvor mange land den har hentet fra datatjenesten.
+4. Tabellvisningen skal ha en knapp som sorterer landene alfabetisk, og bytter mellom å sortere fra a-å til å-a. Det skal gå tydelig frem i hvilken sorteringordre listen er sortert etter.
+5. Dersom man trykker på en rad, skal raden ekspandere seg og vise informasjon om landets offisielle språk.
+6. Tabellen skal kun vise 20 land om gangen per side, og det skal være mulig å hoppe fra side til side. Det skal med andre ord være en paginert tabell.
+7. I tillegg skal applikasjonen ha en statisk `header` som viser navnet på applikasjonen.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Design
 
-### `npm test`
+Utvikleren står fritt til å velge hvordan applikasjon skal se ut, forutsatt at applikasjonen er enkel å bruke og inneholder alle kravene som står beskrevet ovenfor.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Avhengigheter
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Utvikleren står fritt frem til å bruke tredjepartsavhengigheter som kreves for å løse oppgaven, så sant de er nøye gjennomtenkt og gir verdi for prosjektet.
